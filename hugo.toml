@@ -48,6 +48,11 @@ url = '/spotlight/'
 weight = 10
 
 [[menu.main]]
+name = 'Reads'
+url = '/reads/'
+weight = 15
+
+[[menu.main]]
 name = 'Scribble'
 url = '/scribble/'
 weight = 20
