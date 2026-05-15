@@ -1,0 +1,11 @@
+# Hugo
+/public/
+/resources/.cache/
+.hugo_build.lock
+
+# Local drafts (published copies live under content/scribble/)
+/hallucination/
+
+# OS / editor
+.DS_Store
+Thumbs.db

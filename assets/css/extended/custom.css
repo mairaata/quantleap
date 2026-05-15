@@ -1,0 +1,20 @@
+/* Text selection — maroon instead of default blue */
+::selection {
+  background-color: #9b2d5c;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #9b2d5c;
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] ::selection {
+  background-color: #c96b8a;
+  color: #1a1a1a;
+}
+
+:root[data-theme="dark"] ::-moz-selection {
+  background-color: #c96b8a;
+  color: #1a1a1a;
+}

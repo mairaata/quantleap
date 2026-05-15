@@ -1,4 +1,63 @@
-baseURL = 'http://quantleap.me/'
-languageCode = "en-us"
-title = "My Hugo Site"
-theme = "PaperMod"
+baseURL = 'https://quantleap.me/'
+defaultContentLanguage = 'en'
+locale = 'en-us'
+title = 'QuantLeap'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 10
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
+
+[params]
+env = 'production'
+title = 'QuantLeap'
+description = 'Welcome to QuantLeap — a blog about data, AI, and machine learning.'
+author = 'Myra'
+math = true
+mainSections = ['scribble']
+
+[params.homeInfoParams]
+Title = 'Welcome to QuantLeap!'
+Content = '''
+Hello! I'm Myra, an Applied Scientist working at the intersection of data, AI, and machine learning.
+
+This site is where I share learnings, projects, and reflections along the way.
+'''
+AlignSocialIconsTo = true
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/mairaata'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/mairaata/'
+
+[[menu.main]]
+name = 'Spotlight'
+url = '/spotlight/'
+weight = 10
+
+[[menu.main]]
+name = 'Scribble'
+url = '/scribble/'
+weight = 20
+
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 25
+
+[[menu.main]]
+name = 'Search'
+url = '/search/'
+weight = 30
