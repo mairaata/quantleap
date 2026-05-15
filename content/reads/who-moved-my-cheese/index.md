@@ -1,6 +1,6 @@
 +++
 title = "Who Moved My Cheese?"
-date = 2026-05-15T18:02:06Z
+date = 2026-05-15T00:00:00Z
 draft = false
 description = "What a little book taught me about change, comfort, and moving on when life shifts beneath your feet."
 tags = ["Books", "Change", "Reflections"]
