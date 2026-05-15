@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AI Agents and LLMs: Redefining the Future of Intelligent Systems | QuantLeap</title>
+<meta name="keywords" content="AI Agents, LLMs, Intelligent Systems">
+<meta name="description" content="Exploring the role of AI agents and Large Language Models (LLMs) in redefining the future of intelligent systems.">
+<meta name="author" content="Myra">
+<link rel="canonical" href="https://quantleap.me/scribble/ai-agent-series-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.119b1162a5dfd8fc01a04b11566c9aff5778c0dd8192a9bbd0dfd3a16dd406f7.css" integrity="sha256-EZsRYqXf2PwBoEsRVmya/1d4wN2Bkqm70N/ToW3UBvc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://quantleap.me/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://quantleap.me/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://quantleap.me/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://quantleap.me/apple-touch-icon.png">
+<link rel="mask-icon" href="https://quantleap.me/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://quantleap.me/scribble/ai-agent-series-1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script><meta property="og:url" content="https://quantleap.me/scribble/ai-agent-series-1/">
+  <meta property="og:site_name" content="QuantLeap">
+  <meta property="og:title" content="AI Agents and LLMs: Redefining the Future of Intelligent Systems">
+  <meta property="og:description" content="Exploring the role of AI agents and Large Language Models (LLMs) in redefining the future of intelligent systems.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="scribble">
+    <meta property="article:published_time" content="2026-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-01T00:00:00+00:00">
+    <meta property="article:tag" content="AI Agents">
+    <meta property="article:tag" content="LLMs">
+    <meta property="article:tag" content="Intelligent Systems">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI Agents and LLMs: Redefining the Future of Intelligent Systems">
+  <meta name="twitter:description" content="Exploring the role of AI agents and Large Language Models (LLMs) in redefining the future of intelligent systems.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Scribble",
+      "item": "https://quantleap.me/scribble/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "AI Agents and LLMs: Redefining the Future of Intelligent Systems",
+      "item": "https://quantleap.me/scribble/ai-agent-series-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI Agents and LLMs: Redefining the Future of Intelligent Systems",
+  "name": "AI Agents and LLMs: Redefining the Future of Intelligent Systems",
+  "description": "Exploring the role of AI agents and Large Language Models (LLMs) in redefining the future of intelligent systems.",
+  "keywords": [
+    "AI Agents", "LLMs", "Intelligent Systems"
+  ],
+  "articleBody": "Imagine a world where AI does more than just answer your questions—it solves your problems, adapts to your needs, and collaborates seamlessly across domains. AI agents—especially those powered by Large Language Models (LLMs)—are paving the way for such a future. Unlike static models, these dynamic entities combine understanding, reasoning, and action, enabling them to autonomously interact with their environment and achieve specific goals. This post introduces the Agentic Framework: the fundamental concepts and evolution of AI agents, and their role as a transformative force in artificial intelligence.\nWhy Standalone LLMs Aren’t Enough Standalone LLMs, such as OpenAI’s GPT-3 and GPT-4, excel at processing and generating text-based knowledge. They can answer general queries accurately, like:\n“How old is the universe?” However, when posed with more context-specific or personalized questions, they falter:\n“How old is my dog, June?” Without access to external information, the model can’t determine whether “June” is a dog, a person, or even a month. This limitation arises because standalone LLMs operate without external data sources, contextual tools, or real-time feedback. These constraints often lead to generic answers or “hallucinations,” where the model fabricates information.\nHow AI Agents Bridge the Gap This is where AI agents excel. By acting as intelligent intermediaries, they connect LLMs with external resources, enhancing their capabilities to deliver context-specific and accurate responses.\nIntegration with Tools: AI agents can query APIs, search databases, and interact with external software for up-to-date, actionable information. Autonomous Reasoning and Action: They analyze data, make informed decisions, and act on behalf of users, enabling them to solve real-world problems that LLMs alone cannot address. Example:\nAn AI agent tasked with determining your dog’s age could query a pet health app, incorporate your dog’s birthdate, and provide a precise answer—bypassing the limitations of static LLM outputs.\nThis ability to integrate, reason, and act autonomously makes AI agents far more powerful and versatile than LLMs operating in isolation.\nHistorical Context and Evolution of Agents Let’s step back to understand what agents are and how they evolved. The concept of agents traces back to early artificial intelligence, where “expert systems” mimicked decision-making. Over time, advancements in natural language processing and deep learning paved the way for modern AI agents, which are autonomous entities designed to sense their environment, reason about it, and act to achieve specific goals without human intervention.\nSymbolic Agents In the early days of AI, agents were primarily built using symbolic AI, which relied on logical rules and symbolic representations to encapsulate knowledge and facilitate reasoning. These agents aimed to emulate human thought processes by using explicit and interpretable reasoning. They primarily focused on solving problems through transduction and representation/reasoning. They have limitations with uncertainty and large-scale real-world problems. The agent operates on input symbols using a symbolic reasoning engine based on a knowledge base of symbolic rules to produce output symbols.\nRL Agents With the rise of reinforcement learning, AI agents started to learn through interaction with their environment. These agents focused on learning through trial and error, receiving feedback (rewards or penalties) based on their actions. RL agents could perform well on specific tasks, such as playing games, however they often need to train from scratch in unseen cases. They were often limited by the need for extensive training and their inability to generalize to new scenarios. The agent interacts with the environment, receives rewards, and adjusts its policy based on the rewards.\nKnowledge Agents Knowledge agents aimed to utilize their stored knowledge for decision-making. They have the capability of maintaining an internal state of knowledge, reasoning over that knowledge, updating their knowledge after observations, and taking actions. These agents can represent the world with some formal representation and act intelligently. They take input from the environment and pass it to an inference engine which communicates with the knowledge base (KB) to decide as per the stored knowledge. The learning element of the agent regularly updates the KB by learning new knowledge.\nAI Agents With the development of AI, the term “agent” came to describe entities that exhibited intelligent behavior and possessed characteristics such as autonomy, reactivity, pro-activeness, and social ability. They are artificial entities that can perceive their environment, make decisions, and take actions. These AI agents are autonomous and have the capacity to perceive their surroundings, make decisions, learn from their memory, and take action. These AI agents can be categorized as:\nSimple Reflex agents act based on predefined rules that map directly from a given input to an action, without considering past experiences or future consequences. Model-based Reflex agents use a model of the environment to determine actions, allowing them to handle situations where a direct input-output mapping isn’t sufficient, but they still do not learn or adapt. Goal-based agents make decisions based on explicit goals, choosing actions that will help them achieve these objectives, often needing to plan a series of actions to achieve a complex goal. Utility-based agents choose actions that will maximize their utility, which is a measure of how well the agent is doing, by taking into consideration both the goal and a measure of success. Learning agents can learn from their experiences and adapt their behavior over time, improving their performance through machine learning techniques. LLM Agents More recently, large language models (LLMs) have become the foundation for building AI agents. LLMs provide agents with advanced capabilities in command interpretation, knowledge assimilation, and human-like reasoning. LLM-based agents use LLMs as their primary decision-making component and are enhanced with features like memory. These agents can understand natural language, plan tasks, and use tools effectively, making them adaptable to various tasks. LLM agents can interact with each other and have shown the ability to generate new behaviors. LLM-based agents can be single or multi-agent systems. They can engage in collaboration and competition, and form social structures.\nIn these agents, LLM acts as the core, enabling complex interactions with the environment and use of external tools, based on input, perception, and planning/reasoning along with memory.\nLLM-Based Agents: A New Paradigm LLM-based agents represent the pinnacle of this evolution. They leverage LLMs for advanced reasoning and natural language understanding while integrating:\nMemory: To recall and use past interactions. Tools: For enhanced functionality (e.g., querying APIs). Collaboration: Interacting with other agents in multi-agent systems. Their workflows encompass input perception, planning, and execution, enabling tasks like generating new behaviors or forming social structures in collaborative environments.\nKey Characteristics of LLM Agents AI agents possess distinctive traits that set them apart from conventional software:\nAutonomy: Operate independently, reducing the need for constant human intervention. Adaptability: Learn and adjust to new environments or tasks over time. Collaboration: Work seamlessly with other agents, tools, or humans to achieve complex objectives. Why Do We Need AI Agents? Modern challenges, such as managing overwhelming amounts of data or executing intricate processes, demand more than traditional software capabilities. AI agents address these challenges by:\nAutomating repetitive tasks, freeing up human resources. Processing unstructured data to extract actionable insights. Facilitating natural, human-like interactions, enhancing user experiences. Adapting to dynamic conditions and collaborating with other systems or agents. Their workflows include breaking tasks into smaller components, distributing them among specialized modules, and generating insights collaboratively through multi-agent systems.\nExamples of AI Agents in Action Legal Compliance Agents:\nMonitor regulatory changes to ensure businesses meet evolving legal standards. Manage workflows, track deadlines, and organize case files, reducing manual effort for legal professionals. Advertising Agents:\nAudience Targeting: Identify and reach specific demographics using behavioral analytics. Content Creation: Generate personalized ad copy or social media posts. Performance Analysis: Provide real-time insights for campaign optimization. Budget Management: Dynamically allocate resources for maximum ROI. These agents streamline processes, enhance decision-making, and boost efficiency across industries.\nKey Components of LLM Agent Architecture Whether deployed as single or multi-agent systems, LLM-based agents typically incorporate the following components:\nBrain: The core of the agent, powered by LLMs for decision-making, reasoning, and planning. Perception: This module allows the agent to perceive its environment through text, visuals, auditory, and other inputs. Action: This component translates the agent’s decisions into specific outputs, leveraging tools and APIs. Memory: This component is used for storing and recalling past interactions and experiences. Planning: This component allows agents to plan future actions and break down complex tasks into sub-tasks. Profiling: This module defines the role, identity, and persona of the agent, including the tools the agent has access to. These components work together to enable the agent to interact with its environment, process information, and complete tasks.\nLLM agents can be deployed as:\nSingle-Agent Systems: Where a single agent handles tasks independently. Multi-Agent Systems: Where multiple agents collaborate, communicate, and coordinate to achieve common goals. The Future of Intelligent Agents LLM agents represent the next evolution in intelligent systems. By combining autonomy, adaptability, and collaboration, they address challenges that traditional tools cannot. Their integration into industries like healthcare, advertising, and legal services highlights their transformative potential, paving the way for a smarter, more efficient future. Whether you’re managing data, automating workflows, or enhancing user experiences, AI agents are poised to redefine what’s possible.\nIf you found this article useful, please cite it as follows:\nFor general reference:\nMyra. (Jan 2026). Building AI Agents: A Framework for Intelligent Systems. QuantLeap. https://quantleap.me/scribble/ai-agent-series-1/\nFor LaTeX or BibTeX citation:\n@article{myra2026aiagents, title = {Building AI Agents: A Framework for Intelligent Systems}, author = {Myra}, journal = {QuantLeap}, year = {2026}, month = {Jan}, url = {https://quantleap.me/scribble/ai-agent-series-1/} } ",
+  "wordCount" : "1563",
+  "inLanguage": "en",
+  "datePublished": "2026-01-01T00:00:00Z",
+  "dateModified": "2026-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Myra"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://quantleap.me/scribble/ai-agent-series-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "QuantLeap",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://quantleap.me/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://quantleap.me/" accesskey="h" title="QuantLeap (Alt + H)">QuantLeap</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://quantleap.me/spotlight/" title="Spotlight">
+                    <span>Spotlight</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://quantleap.me/scribble/" title="Scribble">
+                    <span>Scribble</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://quantleap.me/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://quantleap.me/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      AI Agents and LLMs: Redefining the Future of Intelligent Systems
+    </h1>
+    <div class="post-description">
+      Exploring the role of AI agents and Large Language Models (LLMs) in redefining the future of intelligent systems.
+    </div>
+    <div class="post-meta">
+
+<span title='2026-01-01 00:00:00 +0000 UTC'>January 1, 2026</span>&nbsp;·&nbsp;<span>Myra</span>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#why-standalone-llms-arent-enough" aria-label="Why Standalone LLMs Aren&rsquo;t Enough">Why Standalone LLMs Aren&rsquo;t Enough</a></li>
+            <li>
+                <a href="#how-ai-agents-bridge-the-gap" aria-label="How AI Agents Bridge the Gap">How AI Agents Bridge the Gap</a></li>
+            <li>
+                <a href="#historical-context-and-evolution-of-agents" aria-label="Historical Context and Evolution of Agents">Historical Context and Evolution of Agents</a><ul>
+                    
+            <li>
+                <a href="#symbolic-agents" aria-label="Symbolic Agents">Symbolic Agents</a></li>
+            <li>
+                <a href="#rl-agents" aria-label="RL Agents">RL Agents</a></li>
+            <li>
+                <a href="#knowledge-agents" aria-label="Knowledge Agents">Knowledge Agents</a></li>
+            <li>
+                <a href="#ai-agents" aria-label="AI Agents">AI Agents</a></li>
+            <li>
+                <a href="#llm-agents" aria-label="LLM Agents">LLM Agents</a></li></ul>
+            </li>
+            <li>
+                <a href="#llm-based-agents-a-new-paradigm" aria-label="LLM-Based Agents: A New Paradigm">LLM-Based Agents: A New Paradigm</a></li>
+            <li>
+                <a href="#key-characteristics-of-llm-agents" aria-label="Key Characteristics of LLM Agents">Key Characteristics of LLM Agents</a></li>
+            <li>
+                <a href="#why-do-we-need-ai-agents" aria-label="Why Do We Need AI Agents?">Why Do We Need AI Agents?</a></li>
+            <li>
+                <a href="#examples-of-ai-agents-in-action" aria-label="Examples of AI Agents in Action">Examples of AI Agents in Action</a></li>
+            <li>
+                <a href="#key-components-of-llm-agent-architecture" aria-label="Key Components of LLM Agent Architecture">Key Components of LLM Agent Architecture</a></li>
+            <li>
+                <a href="#the-future-of-intelligent-agents" aria-label="The Future of Intelligent Agents">The Future of Intelligent Agents</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>Imagine a world where AI does more than just answer your questions—it solves your problems, adapts to your needs, and collaborates seamlessly across domains. <strong>AI agents—especially those powered by Large Language Models (LLMs)—are paving the way for such a future.</strong> Unlike static models, these dynamic entities combine understanding, reasoning, and action, enabling them to autonomously interact with their environment and achieve specific goals.
+This post introduces the <strong>Agentic Framework</strong>: the fundamental concepts and evolution of AI agents, and their role as a transformative force in artificial intelligence.</p>
+<h2 id="why-standalone-llms-arent-enough">Why Standalone LLMs Aren&rsquo;t Enough<a hidden class="anchor" aria-hidden="true" href="#why-standalone-llms-arent-enough">#</a></h2>
+<p>Standalone LLMs, such as <strong>OpenAI&rsquo;s GPT-3 and GPT-4</strong>, excel at processing and generating text-based knowledge. They can answer general queries accurately, like:</p>
+<ul>
+<li><em>&ldquo;How old is the universe?&rdquo;</em></li>
+</ul>
+<p>However, when posed with more context-specific or personalized questions, they falter:</p>
+<ul>
+<li><em>&ldquo;How old is my dog, June?&rdquo;</em></li>
+</ul>
+<p>Without access to external information, the model can&rsquo;t determine whether &ldquo;June&rdquo; is a dog, a person, or even a month. This limitation arises because standalone LLMs operate without external data sources, contextual tools, or real-time feedback. These constraints often lead to generic answers or &ldquo;hallucinations,&rdquo; where the model fabricates information.</p>
+<h2 id="how-ai-agents-bridge-the-gap">How AI Agents Bridge the Gap<a hidden class="anchor" aria-hidden="true" href="#how-ai-agents-bridge-the-gap">#</a></h2>
+<p>This is where <strong>AI agents excel.</strong> By acting as intelligent intermediaries, they connect LLMs with external resources, enhancing their capabilities to deliver context-specific and accurate responses.</p>
+<ul>
+<li><strong>Integration with Tools:</strong> AI agents can query APIs, search databases, and interact with external software for up-to-date, actionable information.</li>
+<li><strong>Autonomous Reasoning and Action:</strong> They analyze data, make informed decisions, and act on behalf of users, enabling them to solve real-world problems that LLMs alone cannot address.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p>An AI agent tasked with determining your dog&rsquo;s age could query a pet health app, incorporate your dog&rsquo;s birthdate, and provide a precise answer—bypassing the limitations of static LLM outputs.</p>
+<p>This ability to integrate, reason, and act autonomously makes AI agents far more powerful and versatile than LLMs operating in isolation.</p>
+<p><img loading="lazy" src="/images/2026/ai-agents/LLM-Agent.jpg"></p>
+<h2 id="historical-context-and-evolution-of-agents">Historical Context and Evolution of Agents<a hidden class="anchor" aria-hidden="true" href="#historical-context-and-evolution-of-agents">#</a></h2>
+<p>Let&rsquo;s step back to understand what agents are and how they evolved. The concept of agents traces back to early artificial intelligence, where &ldquo;expert systems&rdquo; mimicked decision-making. Over time, advancements in natural language processing and deep learning paved the way for modern AI agents, which are autonomous entities designed to sense their environment, reason about it, and act to achieve specific goals without human intervention.</p>
+<h3 id="symbolic-agents">Symbolic Agents<a hidden class="anchor" aria-hidden="true" href="#symbolic-agents">#</a></h3>
+<p>In the early days of AI, agents were primarily built using <strong>symbolic AI</strong>, which relied on logical rules and symbolic representations to encapsulate knowledge and facilitate reasoning. These agents aimed to emulate human thought processes by using explicit and interpretable reasoning. They primarily focused on solving problems through transduction and representation/reasoning. They have limitations with uncertainty and large-scale real-world problems. The agent operates on <strong>input symbols</strong> using a <strong>symbolic reasoning engine</strong> based on a <strong>knowledge base</strong> of symbolic rules to produce <strong>output symbols</strong>.</p>
+<p><img loading="lazy" src="/images/2026/ai-agents/SL-Agent.jpg"></p>
+<h3 id="rl-agents">RL Agents<a hidden class="anchor" aria-hidden="true" href="#rl-agents">#</a></h3>
+<p>With the rise of <strong>reinforcement learning</strong>, AI agents started to learn through interaction with their environment. These agents focused on learning through trial and error, receiving feedback (rewards or penalties) based on their actions. RL agents could perform well on specific tasks, such as playing games, however they often need to train from scratch in unseen cases. They were often limited by the need for extensive training and their inability to generalize to new scenarios. The agent interacts with the <strong>environment</strong>, receives <strong>rewards</strong>, and adjusts its policy based on the rewards.</p>
+<p><img loading="lazy" src="/images/2026/ai-agents/RL-Agent.jpg"></p>
+<h3 id="knowledge-agents">Knowledge Agents<a hidden class="anchor" aria-hidden="true" href="#knowledge-agents">#</a></h3>
+<p>Knowledge agents aimed to utilize their <strong>stored knowledge</strong> for decision-making. They have the capability of maintaining an internal state of knowledge, reasoning over that knowledge, updating their knowledge after observations, and taking actions. These agents can represent the world with some formal representation and act intelligently. They take input from the environment and pass it to an inference engine which communicates with the knowledge base (KB) to decide as per the stored knowledge. The learning element of the agent regularly updates the KB by learning new knowledge.</p>
+<p><img loading="lazy" src="/images/2026/ai-agents/KB-Agent.jpg"></p>
+<h3 id="ai-agents">AI Agents<a hidden class="anchor" aria-hidden="true" href="#ai-agents">#</a></h3>
+<p>With the development of AI, the term &ldquo;agent&rdquo; came to describe entities that exhibited intelligent behavior and possessed characteristics such as <strong>autonomy</strong>, <strong>reactivity</strong>, <strong>pro-activeness</strong>, and <strong>social ability</strong>. They are <strong>artificial entities</strong> that can perceive their environment, make decisions, and take actions. These AI agents are autonomous and have the capacity to perceive their surroundings, make decisions, learn from their memory, and take action. These AI agents can be categorized as:</p>
+<ul>
+<li><strong>Simple Reflex agents</strong> act based on <strong>predefined rules</strong> that map directly from a given input to an action, without considering past experiences or future consequences.</li>
+<li><strong>Model-based Reflex agents</strong> use a <strong>model of the environment</strong> to determine actions, allowing them to handle situations where a direct input-output mapping isn&rsquo;t sufficient, but they still do not learn or adapt.</li>
+<li><strong>Goal-based agents</strong> make decisions based on <strong>explicit goals</strong>, choosing actions that will help them achieve these objectives, often needing to plan a series of actions to achieve a complex goal.</li>
+<li><strong>Utility-based agents</strong> choose actions that will <strong>maximize their utility</strong>, which is a measure of how well the agent is doing, by taking into consideration both the goal and a measure of success.</li>
+<li><strong>Learning agents</strong> can <strong>learn from their experiences</strong> and adapt their behavior over time, improving their performance through machine learning techniques.</li>
+</ul>
+<p><img loading="lazy" src="/images/2026/ai-agents/AI-Agent.jpg"></p>
+<h3 id="llm-agents">LLM Agents<a hidden class="anchor" aria-hidden="true" href="#llm-agents">#</a></h3>
+<p>More recently, <strong>large language models (LLMs)</strong> have become the foundation for building AI agents. LLMs provide agents with advanced capabilities in command interpretation, knowledge assimilation, and human-like reasoning. <strong>LLM-based agents</strong> use LLMs as their primary decision-making component and are enhanced with features like memory. These agents can understand natural language, plan tasks, and use tools effectively, making them adaptable to various tasks. <strong>LLM agents</strong> can interact with each other and have shown the ability to generate new behaviors. <strong>LLM-based agents</strong> can be single or multi-agent systems. They can engage in collaboration and competition, and form social structures.</p>
+<p><img loading="lazy" src="/images/2026/ai-agents/LLM-Agent.jpg"></p>
+<p>In these agents, <strong>LLM</strong> acts as the core, enabling complex interactions with the <strong>environment</strong> and use of <strong>external tools</strong>, based on <strong>input</strong>, <strong>perception</strong>, and <strong>planning/reasoning</strong> along with <strong>memory</strong>.</p>
+<h2 id="llm-based-agents-a-new-paradigm">LLM-Based Agents: A New Paradigm<a hidden class="anchor" aria-hidden="true" href="#llm-based-agents-a-new-paradigm">#</a></h2>
+<p><strong>LLM-based agents represent the pinnacle of this evolution.</strong> They leverage LLMs for advanced reasoning and natural language understanding while integrating:</p>
+<ul>
+<li><strong>Memory</strong>: To recall and use past interactions.</li>
+<li><strong>Tools</strong>: For enhanced functionality (e.g., querying APIs).</li>
+<li><strong>Collaboration</strong>: Interacting with other agents in multi-agent systems.</li>
+</ul>
+<p>Their workflows encompass <strong>input perception, planning, and execution</strong>, enabling tasks like generating new behaviors or forming social structures in collaborative environments.</p>
+<h2 id="key-characteristics-of-llm-agents">Key Characteristics of LLM Agents<a hidden class="anchor" aria-hidden="true" href="#key-characteristics-of-llm-agents">#</a></h2>
+<p>AI agents possess distinctive traits that set them apart from conventional software:</p>
+<ul>
+<li><strong>Autonomy</strong>: Operate independently, reducing the need for constant human intervention.</li>
+<li><strong>Adaptability</strong>: Learn and adjust to new environments or tasks over time.</li>
+<li><strong>Collaboration</strong>: Work seamlessly with other agents, tools, or humans to achieve complex objectives.</li>
+</ul>
+<h2 id="why-do-we-need-ai-agents">Why Do We Need AI Agents?<a hidden class="anchor" aria-hidden="true" href="#why-do-we-need-ai-agents">#</a></h2>
+<p>Modern challenges, such as managing overwhelming amounts of data or executing intricate processes, demand more than traditional software capabilities. AI agents address these challenges by:</p>
+<ul>
+<li><strong>Automating repetitive tasks</strong>, freeing up human resources.</li>
+<li><strong>Processing unstructured data</strong> to extract actionable insights.</li>
+<li><strong>Facilitating natural, human-like interactions</strong>, enhancing user experiences.</li>
+<li><strong>Adapting to dynamic conditions</strong> and collaborating with other systems or agents.</li>
+</ul>
+<p>Their workflows include breaking tasks into smaller components, distributing them among specialized modules, and generating insights collaboratively through multi-agent systems.</p>
+<h2 id="examples-of-ai-agents-in-action">Examples of AI Agents in Action<a hidden class="anchor" aria-hidden="true" href="#examples-of-ai-agents-in-action">#</a></h2>
+<ol>
+<li>
+<p><strong>Legal Compliance Agents</strong>:</p>
+<ul>
+<li>Monitor regulatory changes to ensure businesses meet evolving legal standards.</li>
+<li>Manage workflows, track deadlines, and organize case files, reducing manual effort for legal professionals.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advertising Agents</strong>:</p>
+<ul>
+<li><strong>Audience Targeting</strong>: Identify and reach specific demographics using behavioral analytics.</li>
+<li><strong>Content Creation</strong>: Generate personalized ad copy or social media posts.</li>
+<li><strong>Performance Analysis</strong>: Provide real-time insights for campaign optimization.</li>
+<li><strong>Budget Management</strong>: Dynamically allocate resources for maximum ROI.</li>
+</ul>
+</li>
+</ol>
+<p>These agents streamline processes, enhance decision-making, and boost efficiency across industries.</p>
+<h2 id="key-components-of-llm-agent-architecture">Key Components of LLM Agent Architecture<a hidden class="anchor" aria-hidden="true" href="#key-components-of-llm-agent-architecture">#</a></h2>
+<p>Whether deployed as single or multi-agent systems, LLM-based agents typically incorporate the following components:</p>
+<ul>
+<li><strong>Brain</strong>: The core of the agent, powered by LLMs for decision-making, reasoning, and planning.</li>
+<li><strong>Perception</strong>: This module allows the agent to perceive its environment through text, visuals, auditory, and other inputs.</li>
+<li><strong>Action</strong>: This component translates the agent&rsquo;s decisions into specific outputs, leveraging tools and APIs.</li>
+<li><strong>Memory</strong>: This component is used for storing and recalling past interactions and experiences.</li>
+<li><strong>Planning</strong>: This component allows agents to plan future actions and break down complex tasks into sub-tasks.</li>
+<li><strong>Profiling</strong>: This module defines the role, identity, and persona of the agent, including the tools the agent has access to.</li>
+</ul>
+<p>These components work together to enable the agent to interact with its environment, process information, and complete tasks.</p>
+<p>LLM agents can be deployed as:</p>
+<ul>
+<li><strong>Single-Agent Systems</strong>: Where a single agent handles tasks independently.</li>
+<li><strong>Multi-Agent Systems</strong>: Where multiple agents collaborate, communicate, and coordinate to achieve common goals.</li>
+</ul>
+<p><img loading="lazy" src="/images/2026/ai-agents/Agent-Arch.jpg"></p>
+<h2 id="the-future-of-intelligent-agents">The Future of Intelligent Agents<a hidden class="anchor" aria-hidden="true" href="#the-future-of-intelligent-agents">#</a></h2>
+<p>LLM agents represent the next evolution in intelligent systems. By combining autonomy, adaptability, and collaboration, they address challenges that traditional tools cannot. Their integration into industries like healthcare, advertising, and legal services highlights their transformative potential, paving the way for a smarter, more efficient future. Whether you&rsquo;re managing data, automating workflows, or enhancing user experiences, AI agents are poised to redefine what&rsquo;s possible.</p>
+<p>If you found this article useful, please cite it as follows:</p>
+<p><strong>For general reference:</strong></p>
+<blockquote>
+<p>Myra. (Jan 2026). <em>Building AI Agents: A Framework for Intelligent Systems</em>. QuantLeap. <a href="https://quantleap.me/scribble/ai-agent-series-1/">https://quantleap.me/scribble/ai-agent-series-1/</a></p>
+</blockquote>
+<p><strong>For LaTeX or BibTeX citation:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@article</span>{myra2026aiagents,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span>   = <span style="color:#e6db74">{Building AI Agents: A Framework for Intelligent Systems}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span>  = <span style="color:#e6db74">{Myra}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">journal</span> = <span style="color:#e6db74">{QuantLeap}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">year</span>    = <span style="color:#e6db74">{2026}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">month</span>   = <span style="color:#e6db74">{Jan}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">url</span>     = <span style="color:#e6db74">{https://quantleap.me/scribble/ai-agent-series-1/}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://quantleap.me/tags/ai-agents/">AI Agents</a></li>
+      <li><a href="https://quantleap.me/tags/llms/">LLMs</a></li>
+      <li><a href="https://quantleap.me/tags/intelligent-systems/">Intelligent Systems</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://quantleap.me/">QuantLeap</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof renderMathInElement === "function") {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false
+      });
+    }
+  });
+</script>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -4,29 +4,23 @@
     <title>Categories on QuantLeap</title>
     <link>https://quantleap.me/categories/</link>
     <description>Recent content in Categories on QuantLeap</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© QuantLeap 2025</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://quantleap.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://quantleap.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://quantleap.me/categories/ai/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/categories/ai/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>Technology</title>
       <link>https://quantleap.me/categories/technology/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/categories/technology/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

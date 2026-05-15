@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sandbox on QuantLeap</title>
-    <link>http://localhost:1313/sandbox/</link>
+    <link>https://quantleap.me/sandbox/</link>
     <description>Recent content in Sandbox on QuantLeap</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© QuantLeap 2025</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 20:43:21 +0000</lastBuildDate><atom:link href="http://localhost:1313/sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://quantleap.me/sandbox/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

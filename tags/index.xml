@@ -4,39 +4,44 @@
     <title>Tags on QuantLeap</title>
     <link>https://quantleap.me/tags/</link>
     <description>Recent content in Tags on QuantLeap</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© QuantLeap 2025</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://quantleap.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://quantleap.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Agents</title>
-      <link>https://quantleap.me/tags/ai-agents/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://quantleap.me/tags/ai-agents/</guid>
+      <title>AI Safety</title>
+      <link>https://quantleap.me/tags/ai-safety/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://quantleap.me/tags/ai-safety/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
+    <item>
+      <title>Hallucination</title>
+      <link>https://quantleap.me/tags/hallucination/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://quantleap.me/tags/hallucination/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Intelligent Systems</title>
       <link>https://quantleap.me/tags/intelligent-systems/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/tags/intelligent-systems/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>LLMs</title>
       <link>https://quantleap.me/tags/llms/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/tags/llms/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
+    <item>
+      <title>AI Agents</title>
+      <link>https://quantleap.me/tags/ai-agents/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://quantleap.me/tags/ai-agents/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
