@@ -5,7 +5,7 @@ draft = false
 description = "What a little book taught me about change, comfort, and moving on when life shifts beneath your feet."
 tags = ["Books", "Change", "Reflections"]
 categories = ["Reads"]
-showToc = true
+showToc = false
 TocOpen = false
 +++
 

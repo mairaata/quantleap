@@ -1,6 +1,6 @@
 +++
 title = "From Memorization to Divergence: A Systems-Control Perspective on LLM Hallucination"
-date = 2026-05-15T00:00:00Z
+date = 2026-04-15T00:00:00Z
 draft = false
 description = "Hallucinations in LLMs are predictable outcomes of open-loop architecture. This post reframes them through systems and control theory—from memorization and drift to closed-loop correction."
 tags = ["LLMs", "Hallucination", "AI Safety", "Intelligent Systems"]
