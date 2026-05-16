@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://quantleap.me/categories/ai/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://quantleap.me/tags/ai-safety/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://quantleap.me/tags/books/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,18 +9,6 @@
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://quantleap.me/tags/change/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://quantleap.me/scribble/hallucination-open-loop/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://quantleap.me/tags/hallucination/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://quantleap.me/tags/intelligent-systems/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://quantleap.me/tags/llms/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://quantleap.me/</loc>
@@ -41,14 +23,32 @@
     <loc>https://quantleap.me/tags/reflections/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://quantleap.me/scribble/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://quantleap.me/tags/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://quantleap.me/reads/who-moved-my-cheese/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/categories/ai/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/tags/ai-safety/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/scribble/hallucination-open-loop/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/tags/hallucination/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/tags/intelligent-systems/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/tags/llms/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://quantleap.me/scribble/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://quantleap.me/tags/ai-agents/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>

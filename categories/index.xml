@@ -9,17 +9,17 @@
     <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quantleap.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>https://quantleap.me/categories/ai/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://quantleap.me/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Reads</title>
       <link>https://quantleap.me/categories/reads/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/categories/reads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://quantleap.me/categories/ai/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://quantleap.me/categories/ai/</guid>
       <description></description>
     </item>
     <item>

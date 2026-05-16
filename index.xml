@@ -9,18 +9,18 @@
     <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quantleap.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From Memorization to Divergence: A Systems-Control Perspective on LLM Hallucination</title>
-      <link>https://quantleap.me/scribble/hallucination-open-loop/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://quantleap.me/scribble/hallucination-open-loop/</guid>
-      <description>Hallucinations in LLMs are predictable outcomes of open-loop architecture. This post reframes them through systems and control theory—from memorization and drift to closed-loop correction.</description>
-    </item>
-    <item>
       <title>Who Moved My Cheese?</title>
       <link>https://quantleap.me/reads/who-moved-my-cheese/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/reads/who-moved-my-cheese/</guid>
       <description>What a little book taught me about change, comfort, and moving on when life shifts beneath your feet.</description>
+    </item>
+    <item>
+      <title>From Memorization to Divergence: A Systems-Control Perspective on LLM Hallucination</title>
+      <link>https://quantleap.me/scribble/hallucination-open-loop/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://quantleap.me/scribble/hallucination-open-loop/</guid>
+      <description>Hallucinations in LLMs are predictable outcomes of open-loop architecture. This post reframes them through systems and control theory—from memorization and drift to closed-loop correction.</description>
     </item>
     <item>
       <title>AI Agents and LLMs: Redefining the Future of Intelligent Systems</title>
@@ -34,9 +34,9 @@
       <link>https://quantleap.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://quantleap.me/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Myra&lt;/strong&gt;, an Applied Scientist working at the intersection of data, AI, and machine learning. I enjoy turning research ideas into practical, scalable systems.&lt;/p&gt;
-&lt;p&gt;On this site I write about &lt;strong&gt;LLM engineering&lt;/strong&gt;, &lt;strong&gt;AI agents&lt;/strong&gt;, and &lt;strong&gt;reliability&lt;/strong&gt;—especially hallucination, uncertainty, and closed-loop control.&lt;/p&gt;
-&lt;p&gt;Find me on &lt;a href=&#34;https://github.com/mairaata&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/mairaata/&#34;&gt;LinkedIn&lt;/a&gt;, or browse &lt;a href=&#34;https://quantleap.me/scribble/&#34;&gt;Scribble&lt;/a&gt; for long-form posts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Maira Ata. Over the years, I&amp;rsquo;ve founded, led, and built — always chasing the same goal: turning models, messy data, and cutting-edge research into real products for industries where getting it wrong isn&amp;rsquo;t an option.&lt;/p&gt;
+&lt;p&gt;My work sits at the intersection of NLP, information extraction, and LLM engineering — applied to regtech and fintech, where the stakes are rarely abstract.&lt;/p&gt;
+&lt;p&gt;Before LeoRegtech, I founded Love For Data and led it as CTO. Building from zero taught me one thing above all else: elegant research means nothing if it can&amp;rsquo;t survive contact with production.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
